@@ -1,4 +1,13 @@
-Apellido y nombre de los alumnos que participaron de la interacción:
+﻿Apellido y nombre de los alumnos que participaron de la interacción:
 Enriquez Bishop Jose Alberto 
 Gomez Brandon 
 Barrera Joel Manuel
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+Lo actualizo con los comandos git remote add y git fetch 
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Si, puede
+
+
