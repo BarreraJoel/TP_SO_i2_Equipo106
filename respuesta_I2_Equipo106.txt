@@ -10,4 +10,9 @@ Lo actualizo con los comandos git remote add y git fetch
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 Si, puede
 
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+Si, puede
 
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+Los datos no se pierden
