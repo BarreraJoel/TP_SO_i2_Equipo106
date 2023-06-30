@@ -16,3 +16,41 @@ Si, puede
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 Los datos no se pierden
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+
+1. Para crear el README: echo "# TP_SO_i2_Equipo106" > README.md
+Para crear el archivo fork: touch fork.txt
+git add .
+git commit -m "README y archivo fork agregados"
+git push origin main
+
+4. Repositorio de forma local: git clone https://github.com/BarreraJoel/TP_SO_i2_Equipo106.git
+Para crear archivo: touch NuevoDato.txt
+git add.
+git commit -m "Archivo NuevoDato agregado"
+git push origin main
+
+6. Para crear archivo de respuestas: touch respuesta_I2_Equipo106
+echo "Apellido y nombre de los alumnos que participaron de la interacción:" > respuesta_I2_Equipo106
+echo "Enriquez Bishop Jose Alberto" >> respuesta_I2_Equipo106
+echo "Gomez Brandon" >> respuesta_I2_Equipo106
+echo "Barrera Joel Manuel" >> respuesta_I2_Equipo106
+git add .
+git commit -m "Archivo respuestas agregado"
+git push origin main
+
+------------------------------
+
+git remote add beta  https://github.com/BarreraJoel/TP_SO_i2_Equipo106.git
+git fetch beta
+git commit -m "modificacion de alfa"
+git commit -m "respuestas gamma"
+git push
+git pull
+
+
+
+
